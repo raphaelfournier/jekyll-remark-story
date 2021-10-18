@@ -1,0 +1,43 @@
+# Jekyll Remark Story (Story for Remark, on Jekyll)
+
+The great [Story](https://story.xaprb.com/) theme by
+[xaprb](https://github.com/xaprb) is a great theme, to enhance the styling of
+[Remark](http://remarkjs.com/) slides. However, it is mostly available through
+a Hugo theme, so here is a Jekyll version.
+
+## Usage
+
+1. Clone this repo (or your own fork)
+1. `$ bundle install` 
+1. `$ bundle exec jekyll serve`
+
+## Create a new presentation
+
+1. Create the folder for your presentation: 
+
+    `mkdir <name-of-presentation>`
+
+1. Create and edit an `index.md` file in this new folder:
+
+    `vim <name-of-presentation>/index.md`
+
+1. Fill it with your Remark slide content:
+```yaml
+    ---
+    title: "<name-of-presentation>"
+    date: 2021-10-16
+    ratio: "16:9"
+    layout: story
+    ---
+    
+    # A first slide
+    
+    With some content
+```
+
+4. Look at the example Story presentation for ideas on how to organise and
+   style the slides. The live version is
+   [here](https://story.xaprb.com/slides/adirondack/), while the source is
+   available in this repo (see `./adirondack/index.md`).
+
+<!-- vim: set ft=markdown: -->
