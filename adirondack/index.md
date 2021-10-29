@@ -1,21 +1,9 @@
 ---
 title: 'Creating Beautiful Presentations with Story'
 date: 2021-10-16
-url: "slides/adirondack/"
-image: "./images/leo-serrat-533922-unsplash.jpg"
-thumbnail: ./thumbnail.jpg
 description: "Story's Remark frameworks help you create sophisticated slides with simple, clean Markdown. There are predefined layouts for most presentation needs, beautiful typography and colors, precise image control, and a simple modular way to create custom layouts."
 ratio: "16:9"
 layout: story
-themes:
-- apron
-- descartes
-- adirondack
-classes:
-- feature-math
-- feature-qrcode
-- feature-nohighlight
-- feature-music
 ---
 class: title, smokescreen, shelf, no-footer
 background-image: url(./images/leo-serrat-533922-unsplash.jpg)
