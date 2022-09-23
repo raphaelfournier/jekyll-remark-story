@@ -56,7 +56,7 @@ img {
 
 /* Title Slide Layout. Use .smokescreen[...] to contain the h1/h2. */
 .remark-slide-content.title h1, .remark-slide-content.title h2, .remark-slide-content.title h3 {
-	color: white;
+	color: blue;
 	font-size: 50pt;
 	margin: 30pt;
 	font-weight: 300;
@@ -67,6 +67,7 @@ img {
 .remark-slide-content.title h3 {
 	font-size: 22pt;
 }
+
 .smokescreen {
 	width: 100%;
 	position: absolute;

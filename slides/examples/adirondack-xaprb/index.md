@@ -1,5 +1,5 @@
 ---
-title: 'Creating Beautiful Presentations with Story'
+title: 'xaprb: Creating Beautiful Presentations with Story'
 date: 2021-10-16
 description: "Story's Remark frameworks help you create sophisticated slides with simple, clean Markdown. There are predefined layouts for most presentation needs, beautiful typography and colors, precise image control, and a simple modular way to create custom layouts."
 ratio: "16:9"

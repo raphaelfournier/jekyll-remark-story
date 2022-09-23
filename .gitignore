@@ -3,3 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+Gemfile.lock
+Makefile
+assets/js/pdfjs/
+default/
+remark-bare-singlepage.html
+remark-example-singlepage.html

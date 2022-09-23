@@ -279,6 +279,38 @@ html {
   break-inside: avoid;
   page-break-inside: avoid;
 }
+
+/* Equal 2-column layout */
+.left-column {
+	/*color: #777;*/
+	width: 47%;
+	height: 92%;
+	float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+	color: #000;
+}
+.right-column {
+	width: 47%;
+	float: right;
+}
+
+/* Two-column layout */
+.small-left-column {
+	color: #777;
+	width: 25%;
+	height: 92%;
+	float: left;
+}
+.small-left-column h2:last-of-type, .small-left-column h3:last-child {
+	color: #000;
+}
+.large-right-column {
+	width: 70%;
+	float: right;
+	/*padding-top: 1em;*/
+}
+
 .remark-slide-content.col-3 {
   columns: 3;
   padding-top: 136px;
